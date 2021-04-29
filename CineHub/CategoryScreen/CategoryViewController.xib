@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoryViewController" customModule="CineHub" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="iyR-AX-NAd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7DZ-Is-ghT">
+                    <rect key="frame" x="0.0" y="84" width="414" height="33.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xc5-jV-eBm">
+                    <rect key="frame" x="20.5" y="261.5" width="373" height="373"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU7-Jd-EwH">
+                            <rect key="frame" x="0.0" y="0.0" width="168" height="168"/>
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.59607843137254901" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cU7-Jd-EwH" secondAttribute="height" id="rcw-D7-WKv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                            <state key="normal" title="Playing">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="playingButtonTapped:" destination="-1" eventType="touchUpInside" id="66J-R9-GEO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyK-ku-N9o">
+                            <rect key="frame" x="205" y="0.0" width="168" height="168"/>
+                            <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                            <state key="normal" title="Popular">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="popularButtonTapped:" destination="-1" eventType="touchUpInside" id="xjT-ve-sW7"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPU-fa-fZP">
+                            <rect key="frame" x="0.0" y="205" width="168" height="168"/>
+                            <color key="backgroundColor" red="0.52156862745098043" green="0.80000000000000004" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                            <state key="normal" title="Top-Rated">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="topRatedButtonTapped:" destination="-1" eventType="touchUpInside" id="yWK-NZ-vhQ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cle-xh-ttx">
+                            <rect key="frame" x="205" y="205" width="168" height="168"/>
+                            <color key="backgroundColor" red="1" green="0.70196078431372544" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                            <state key="normal" title="Search">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="upcomingButtonTapped:" destination="-1" eventType="touchUpInside" id="fMp-EM-c7G"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="cU7-Jd-EwH" firstAttribute="width" secondItem="xc5-jV-eBm" secondAttribute="width" multiplier="0.45" id="0Ek-7P-5o8"/>
+                        <constraint firstAttribute="width" secondItem="xc5-jV-eBm" secondAttribute="height" id="0I5-N7-fhh"/>
+                        <constraint firstItem="Cle-xh-ttx" firstAttribute="top" secondItem="NPU-fa-fZP" secondAttribute="top" id="1fO-uC-DnS"/>
+                        <constraint firstItem="NPU-fa-fZP" firstAttribute="height" secondItem="cyK-ku-N9o" secondAttribute="height" id="2Is-xm-Muj"/>
+                        <constraint firstItem="cyK-ku-N9o" firstAttribute="top" secondItem="xc5-jV-eBm" secondAttribute="top" id="8Xk-xO-33t"/>
+                        <constraint firstAttribute="bottom" secondItem="NPU-fa-fZP" secondAttribute="bottom" id="97o-pT-OJr"/>
+                        <constraint firstItem="Cle-xh-ttx" firstAttribute="width" secondItem="NPU-fa-fZP" secondAttribute="width" id="9Bz-VN-T0X"/>
+                        <constraint firstAttribute="trailing" secondItem="cyK-ku-N9o" secondAttribute="trailing" id="CkC-bZ-7R4"/>
+                        <constraint firstItem="NPU-fa-fZP" firstAttribute="leading" secondItem="xc5-jV-eBm" secondAttribute="leading" id="Gml-Md-jSG"/>
+                        <constraint firstItem="NPU-fa-fZP" firstAttribute="width" secondItem="cyK-ku-N9o" secondAttribute="width" id="O4f-Uq-w56"/>
+                        <constraint firstItem="cU7-Jd-EwH" firstAttribute="top" secondItem="xc5-jV-eBm" secondAttribute="top" id="QQf-dI-mbI"/>
+                        <constraint firstItem="Cle-xh-ttx" firstAttribute="height" secondItem="NPU-fa-fZP" secondAttribute="height" id="SpA-lX-RXU"/>
+                        <constraint firstItem="cyK-ku-N9o" firstAttribute="top" secondItem="cU7-Jd-EwH" secondAttribute="top" id="TKr-Ph-uTg"/>
+                        <constraint firstItem="cyK-ku-N9o" firstAttribute="width" secondItem="cU7-Jd-EwH" secondAttribute="width" id="fm8-31-Jhn"/>
+                        <constraint firstAttribute="trailing" secondItem="Cle-xh-ttx" secondAttribute="trailing" id="n6r-j7-O6V"/>
+                        <constraint firstItem="cyK-ku-N9o" firstAttribute="height" secondItem="cU7-Jd-EwH" secondAttribute="height" id="rmB-Ew-qID"/>
+                        <constraint firstItem="cU7-Jd-EwH" firstAttribute="leading" secondItem="xc5-jV-eBm" secondAttribute="leading" id="vrA-Iq-4Dv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FmU-KI-orK">
+                    <rect key="frame" x="0.0" y="634.5" width="414" height="227.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYc-k1-1yO">
+                            <rect key="frame" x="132" y="83.5" width="150" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Vbk-LR-GWo"/>
+                                <constraint firstAttribute="width" constant="150" id="qAj-nz-AOh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
+                            <state key="normal" title="Logout">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="logoutButtonTapped:" destination="-1" eventType="touchUpInside" id="73d-UZ-OLg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="TYc-k1-1yO" firstAttribute="centerX" secondItem="FmU-KI-orK" secondAttribute="centerX" id="ZpF-Um-yhJ"/>
+                        <constraint firstItem="TYc-k1-1yO" firstAttribute="centerY" secondItem="FmU-KI-orK" secondAttribute="centerY" id="pbq-ap-3dN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7DZ-Is-ghT" secondAttribute="trailing" id="7AJ-iU-nZf"/>
+                <constraint firstItem="FmU-KI-orK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="CQr-wF-ATJ"/>
+                <constraint firstItem="xc5-jV-eBm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DHr-FU-6SK"/>
+                <constraint firstItem="FmU-KI-orK" firstAttribute="top" secondItem="xc5-jV-eBm" secondAttribute="bottom" id="ULP-lQ-c3M"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="FmU-KI-orK" secondAttribute="bottom" id="ec6-D8-u7g"/>
+                <constraint firstItem="xc5-jV-eBm" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="jkT-JT-NSc"/>
+                <constraint firstItem="xc5-jV-eBm" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rU6-ap-Vyj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FmU-KI-orK" secondAttribute="trailing" id="ugj-5d-FlM"/>
+                <constraint firstItem="7DZ-Is-ghT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="xkG-T2-8OC"/>
+                <constraint firstItem="7DZ-Is-ghT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ytA-j8-YPC"/>
+            </constraints>
+            <point key="canvasLocation" x="-26.086956521739133" y="102.45535714285714"/>
+        </view>
+    </objects>
+</document>
