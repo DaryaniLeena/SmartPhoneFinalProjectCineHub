@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@DaryaniLeena 
-DaryaniLeena
-/
-SmartPhoneFinalProjectCineHub
-Private
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-SmartPhoneFinalProjectCineHub/.gitignore
-@DaryaniLeena
-DaryaniLeena Initial commit
-Latest commit 08413a9 9 minutes ago
- History
- 1 contributor
-90 lines (74 sloc)  2.12 KB
-  
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -121,16 +88,3 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
