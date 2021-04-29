@@ -137,7 +137,7 @@
                             <color key="textColor" systemColor="systemYellowColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budget" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMJ-sc-1i7">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revenue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMJ-sc-1i7">
                             <rect key="frame" x="207" y="0.0" width="207" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" systemColor="systemYellowColor"/>
