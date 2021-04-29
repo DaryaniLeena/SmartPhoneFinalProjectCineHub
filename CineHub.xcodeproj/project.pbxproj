@@ -35,6 +35,7 @@
 		F9233F54262BCBB700FF52F7 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F9233F53262BCBB700FF52F7 /* loginbg.mp4 */; };
 		F99911EA2638ECDF00F1F442 /* VotesCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99911E92638ECDF00F1F442 /* VotesCustomView.swift */; };
 		F99911F12638F0E900F1F442 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99911F02638F0E900F1F442 /* UIView.swift */; };
+		F9E9DF65263B638C00801AB9 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F9E9DF64263B638C00801AB9 /* movie.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		F9233F53262BCBB700FF52F7 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginbg.mp4; sourceTree = "<group>"; };
 		F99911E92638ECDF00F1F442 /* VotesCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesCustomView.swift; sourceTree = "<group>"; };
 		F99911F02638F0E900F1F442 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F9E9DF64263B638C00801AB9 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = movie.mp4; path = CineHub/movie.mp4; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 		F9233F52262BCB8500FF52F7 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F9E9DF64263B638C00801AB9 /* movie.mp4 */,
 				F9233F53262BCBB700FF52F7 /* loginbg.mp4 */,
 			);
 			path = Media;
@@ -295,6 +298,7 @@
 			files = (
 				0DD3AF332639B6B800739DAA /* YoutubeViewController.xib in Resources */,
 				0D27FCEE2638A81900F72A7F /* CategoryViewController.xib in Resources */,
+				F9E9DF65263B638C00801AB9 /* movie.mp4 in Resources */,
 				0D27FD102638C14A00F72A7F /* MovieDetailsViewController.xib in Resources */,
 				F9233EFA262A36C000FF52F7 /* LaunchScreen.storyboard in Resources */,
 				0D27FD0B2638BB6B00F72A7F /* MovieTableViewCell.xib in Resources */,
