@@ -40,18 +40,13 @@ class MovieDetailsViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-//        spinner.startAnimating()
-//        self.showSpinner(onView: self.view)
+
         fetchMovieDetails()
         self.view.backgroundColor = UIColor.black
-//        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-//            backgroundImage.image = UIImage(named: "theater")
-//            backgroundImage.contentMode = .scaleAspectFill
-//            self.view.insertSubview(backgroundImage, at: 0)
         tagline.textColor = UIColor.white
         genresText.textColor = UIColor.white
         overviewTextField.textColor = UIColor.white
-                releaseDateText.textColor = UIColor.white
+        releaseDateText.textColor = UIColor.white
         durationLabel.textColor = UIColor.white
         budgetLabel.textColor = UIColor.white
 //        PlayButton.widthAnchor.constraint(equalToConstant: 100.0).isActive = true

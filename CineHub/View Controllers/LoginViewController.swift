@@ -34,7 +34,8 @@ class LoginViewController: UIViewController {
     func setUpElements() {
         //hide the error button
         errorLabel.alpha = 0
-        
+        view.setNeedsLayout()
+        view.layoutIfNeeded()
         //style the elements
         Utilities.styleTextField(emailTextField)
         Utilities.styleTextField(passwordTextField)
